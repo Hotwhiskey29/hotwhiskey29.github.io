@@ -20,9 +20,9 @@
             }
             body{
                 image-rendering: crisp-edges;
-                background-image: url(images/pokeball.png);
+                background-image: url(images/tree.png);
                 background-repeat: repeat;
-                background-size: 5%;
+                background-size: 6%;
                 font-family: bytebounce;
                 font-size: 125%;
                 margin: 0;
@@ -39,6 +39,9 @@
                 margin-right: 20px;
                 font-size: 120%;
             }
+            li:hover{ 
+                transform: scale(1.2);
+            }
             a {
                 text-decoration: none;
                 color: rgb(255, 255, 255);
@@ -54,7 +57,7 @@
             img{
                 image-rendering: crisp-edges;
             }
-            .box.why{
+            .box{
                 border: 20px solid;
                 border-image-source: url(images/icebox.png);
                 border-image-slice: 20 fill;
@@ -68,9 +71,6 @@
                 margin: 20px;
                 text-align: center;
             }
-            .box.why{
-                text-align: center;
-            }
             h1{
                 background-color: rgba(0, 0, 0);
                 color: white;
@@ -79,4 +79,11 @@
                 padding-bottom: 10px;
                 
             }
-
+            .screenshots{
+                border-radius: 10px;
+                border: solid 2px rgb(255, 255, 255);
+            }
+            .btitle{
+                background: transparent;
+                margin-top: 10px;
+            }
