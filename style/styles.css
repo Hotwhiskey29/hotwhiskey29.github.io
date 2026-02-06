@@ -1,10 +1,10 @@
             @font-face {
                 font-family: joystix;
-                src: url(font/joystix\ monospace.otf);
+                src: url(../font/joystix\ monospace.otf);
             }
             @font-face {
                 font-family: bytebounce;
-                src: url(font/ByteBounce.ttf);
+                src: url(../font/ByteBounce.ttf);
             }            
             header, footer{
                 color: rgb(255, 255, 255);
@@ -19,7 +19,7 @@
             }
             body{
                 image-rendering: crisp-edges;
-                background-image: url(images/bg/hedgehog.png);
+                background-image: url(../images/bg/hedgehog.png);
                 background-repeat: repeat;
                 background-size: 7%;
                 font-family: bytebounce;
@@ -59,7 +59,7 @@
             }
             .box{
                 border: 12px solid;
-                border-image-source: url(images/boxes/normalbox.png);
+                border-image-source: url(../images/boxes/normalbox.png);
                 border-image-slice: 12 fill;
                 border-image-repeat: round;
                 margin: 20px 20% 0 20%;
